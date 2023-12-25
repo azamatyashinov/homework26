@@ -1,0 +1,160 @@
+*{
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0 20px;
+margin: o auto;
+width: 100%;
+}
+
+body{
+    background-color: rgb(1, 6, 24);
+}
+
+.nt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+}
+
+.n1, .n2   ,.n3, .n4 , .n5, .n6,  .n7, .n8 , .n9, .n10{
+    color: white;
+    font-size: 80px;
+    padding: 8px;
+}
+
+.img{
+    animation-duration: 3s;
+    animation-name: najottalim;
+}
+
+@keyframes najottalim {
+0%{
+transform: translateY(0);
+
+} 100%{
+transform: translateY(100px);
+}
+0%{
+    transform: scale(1);
+}80%{
+    transform: scale(1.6);
+}
+
+
+
+
+}
+
+.n1 , .n10{
+    animation-duration: 3s;
+    animation-name: nt1;
+}
+
+@keyframes nt1{
+
+    50%{
+        transform: translateY(0);
+
+    }100%{
+        transform: translateY(100px);
+    }
+}
+
+
+.n2 , .n9{
+    animation-duration: 3s;
+    animation-name: nt2;
+}
+
+@keyframes nt2{
+
+    60%{
+        transform: translateY(0);
+
+    }100%{
+        transform: translateY(100px);
+    }
+}
+
+
+.n3 ,.n8{
+    animation-duration: 3s;
+    animation-name: nt3;
+}
+
+@keyframes nt3{
+
+    70%{
+        transform: translateY(0);
+
+    }100%{
+        transform: translateY(100px);
+    }
+}
+
+
+.n4, .n7{
+    animation-duration: 3s;
+    animation-name: nt4;
+}
+
+@keyframes nt4{
+
+    80%{
+        transform: translateY(0);
+
+    }100%{
+        transform: translateY(100px);
+    }
+}
+
+.n5, .n6{
+    animation-duration: 3s;
+    animation-name: nt;
+}
+
+@keyframes nt{
+
+    90%{
+        transform: translateY(0);
+
+    }100%{
+        transform: translateY(100px);
+    }
+}
+
+.section1{
+    display: flex;
+    animation-duration: 3s;
+    animation-name: padding1;
+}
+
+@keyframes padding1 {
+
+    0%{
+        transform: translateX(o);
+    }50%{
+        transform: translateX(-40px);
+    }
+}
+
+
+.section2{
+    display: flex;
+    animation-duration: 3s;
+    animation-name: padding2;
+}
+
+@keyframes padding2 {
+
+    0%{
+        transform: translateX(o);
+    }50%{
+        transform: translateX(60px);
+    }
+}
